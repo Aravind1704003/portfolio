@@ -1,9 +1,9 @@
 .skill-set {
   display: flex;
-  flex-direction: column; /* Change flex-direction to column */
+  flex-direction: row; /* Change flex-direction to column */
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 60px;
   height: auto;
   background-color: rgb(8, 7, 7);
   padding: 50px;
@@ -71,6 +71,7 @@ progress[value]::-webkit-progress-value {
 /* Media query for mobile devices (up to 767px) */
 @media only screen and (max-width: 767px) {
   .skill-set {
+    flex-direction: column;
     gap: 20px;
     padding: 30px;
   }

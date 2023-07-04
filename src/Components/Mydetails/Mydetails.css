@@ -1,7 +1,7 @@
 .personal-details {
     background-color: black;
     color:white;
-    height: 100vh;
+    height: auto;
   }
   .personal-details > h1{
     display: flex;
