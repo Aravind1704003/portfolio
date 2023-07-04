@@ -1,0 +1,39 @@
+.TopContent{
+    color:white;
+}
+
+.TopContent_Container{
+    position:absolute;
+    top:300px;
+    right:100px;
+    
+    
+}
+.TopContent_Container > h1 {
+    font-size: 50px;
+    padding:0px 10px;
+    
+}
+.TopContent_Container > p{
+    padding:10px;
+    color:blueviolet;
+    font-size: 25px;
+}
+.TopContent_Container > a > button{
+    margin:5px;
+    margin-right: 15px;
+    padding:10px;
+    border:none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.downloadbtn{
+    background-color:rgb(226, 92, 43);
+    color:white;
+    font-weight: bolder;
+}
+.wrkbtn{
+    background-color:rgb(226, 92, 43);
+    color:white;
+    font-weight: bolder;
+}

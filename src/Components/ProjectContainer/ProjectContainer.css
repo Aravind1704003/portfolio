@@ -1,0 +1,55 @@
+.portfolio >h1{
+    padding:20px;
+    color:blueviolet;
+    font-weight: bolder;
+  font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.portfolio{
+    background-color: black;
+    color:white;
+    height: 150vh;
+    width: 100vw;
+}
+
+.projects{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display:block;
+    margin-left:20%;
+    margin-right:30%;
+}
+
+.project-title{
+    width:50px;
+    color:orangered
+}
+.project{
+    display: block;
+    margin-left:-20%
+}
+
+.project-details
+{
+    padding:15px;
+    font-size: 20px;
+}
+.projects{
+    display: flex;
+    gap: 200px ;
+    margin-right: 50px;
+    /* flex-wrap: wrap; */
+    padding:70px;
+}
+.project-description{
+    padding:5px;
+    color:aqua;
+}
+
+.project-image{
+    height:175px;
+}
