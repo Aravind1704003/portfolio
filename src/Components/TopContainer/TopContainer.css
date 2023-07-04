@@ -8,4 +8,15 @@
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
-
+@media only screen and (max-width: 767px) {
+    .TopContainer
+    {
+        background: url(./img.jpg);
+        background-color: black;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+    }
+}
