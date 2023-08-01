@@ -10,7 +10,7 @@ const Experience = () => {
     <div className="experience-item">
       <h2><u>Hischip</u></h2>
       <p>Position: Intern</p>
-      <p>Duration: July 2023 - Present</p>
+      <p>Duration: July 2023 - Aug 2023</p>
       <ul>
         <li>Assisted in web development projects</li>
         <li>Collaborated with team members on coding tasks</li>

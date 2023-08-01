@@ -7,12 +7,14 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Helmet>
+    <head>
+      <title>
+        portfolio
+      </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </Helmet>
+    </head>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
 reportWebVitals();
